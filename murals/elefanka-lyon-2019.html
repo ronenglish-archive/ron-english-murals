@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elefanka, Lyon, 2019 | Ron English Catalogue Raisonné</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+
+    .nav-pills{
+      margin-top:8px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+    }
+
+    header{
+      margin-top:20px;
+      margin-bottom:24px;
+    }
+
+    h1{
+      font-size:clamp(34px,5vw,58px);
+      margin:0 0 10px;
+      letter-spacing:-.02em;
+    }
+
+    .subtitle{
+      margin:0;
+      max-width:78ch;
+      font-size:18px;
+      line-height:1.6;
+      color:var(--muted);
+    }
+
+    .hero{
+      margin:26px 0 30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .hero img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .hero figcaption{
+      padding:14px 16px 18px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .section{
+      margin-top:28px;
+      padding:22px 22px 24px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .section h2{
+      margin:0 0 14px;
+      font-size:24px;
+      line-height:1.3;
+    }
+
+    .meta{
+      display:grid;
+      grid-template-columns:180px 1fr;
+      gap:12px 18px;
+      margin:0;
+    }
+
+    .meta dt{
+      font-weight:700;
+    }
+
+    .meta dd{
+      margin:0;
+      color:#222;
+    }
+
+    .body-copy{
+      margin:0;
+      color:#222;
+      line-height:1.7;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
+      margin:0;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .gallery-item figcaption{
+      padding:10px 12px 12px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .sources{
+      margin:0;
+      padding-left:20px;
+    }
+
+    .sources li{
+      margin:0 0 10px;
+      line-height:1.6;
+    }
+
+    .sources a{
+      color:#111;
+    }
+
+    .sources a:hover{
+      color:#1d4ed8;
+    }
+
+    footer{
+      margin-top:34px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width:700px){
+      .meta{
+        grid-template-columns:1fr;
+        gap:6px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../index.html">Catalogue home</a>
+      <a class="nav-pill" href="index.html">Murals</a>
+    </nav>
+
+    <header>
+      <h1>Elefanka, Lyon, 2019</h1>
+      <p class="subtitle">
+        Large-scale mural in Lyon, France, featuring Ron English’s hybrid-animal POPaganda imagery.
+      </p>
+    </header>
+
+    <figure class="hero">
+      <img src="../images/murals/lyon.jpg" alt="Ron English, Elefanka, Lyon, 2019" loading="lazy" />
+      <figcaption>Ron English – <em>Elefanka</em>, Lyon, France, 2019.</figcaption>
+    </figure>
+
+    <section class="section" aria-labelledby="work-details">
+      <h2 id="work-details">Work details</h2>
+      <dl class="meta">
+        <dt>Title</dt>
+        <dd><em>Elefanka</em></dd>
+
+        <dt>Year</dt>
+        <dd>2019 (approx.)</dd>
+
+        <dt>Location</dt>
+        <dd>Lyon, France</dd>
+
+        <dt>Context</dt>
+        <dd>Part of Lyon’s large-format mural circuit</dd>
+      </dl>
+    </section>
+
+    <section class="section" aria-labelledby="description">
+      <h2 id="description">Description</h2>
+      <p class="body-copy">
+        Ron English’s <em>Elefanka</em> brought his hybrid-animal surrealism into Lyon’s growing landscape of monumental street murals. Local guides and walking-tour coverage identify the wall as one of the city’s notable large-format urban artworks, placing English’s POPaganda imagery within Lyon’s expanding public-art scene.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/Elefanka-1.jpg" alt="Elefanka mural in Lyon, 2019, alternate view by Ron English" loading="lazy" />
+          <figcaption>Alternate view.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/lyon.jpg" alt="Elefanka mural in Lyon, 2019, main view by Ron English" loading="lazy" />
+          <figcaption>Main view.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sources">
+      <h2 id="sources">Sources</h2>
+      <ol class="sources">
+        <li><a href="https://ptitloley.canalblog.com/archives/2019/11/06/37767436.html">Ptit Loley – Lyon street art blog post</a></li>
+        <li><a href="https://www.street-art-safari.com/Picture@1120%E2%9C%AA">Street Art Safari – Lyon mural photo</a></li>
+        <li><a href="https://bleusaturne.wordpress.com/2020/01/23/balade-street-art-lyon/">Bleu Saturne – Balade street art Lyon</a></li>
+        <li><a href="https://www.luckysophie.com/2023/01/street-art-murs-xxl-a-lyon.html">Lucky Sophie – Street art Murs XXL à Lyon</a></li>
+      </ol>
+    </section>
+
+    <footer>
+      <a href="index.html">← Back to murals</a>
+    </footer>
+  </main>
+</body>
+</html>

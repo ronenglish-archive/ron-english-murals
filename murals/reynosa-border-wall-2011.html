@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reynosa Border Wall, 2011 | Ron English Catalogue Raisonné</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+
+    .nav-pills{
+      margin-top:8px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+    }
+
+    header{
+      margin-top:20px;
+      margin-bottom:24px;
+    }
+
+    h1{
+      font-size:clamp(34px,5vw,58px);
+      margin:0 0 10px;
+      letter-spacing:-.02em;
+    }
+
+    .subtitle{
+      margin:0;
+      max-width:78ch;
+      font-size:18px;
+      line-height:1.6;
+      color:var(--muted);
+    }
+
+    .hero{
+      margin:26px 0 30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .hero img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .hero figcaption{
+      padding:14px 16px 18px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .section{
+      margin-top:28px;
+      padding:22px 22px 24px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .section h2{
+      margin:0 0 14px;
+      font-size:24px;
+      line-height:1.3;
+    }
+
+    .meta{
+      display:grid;
+      grid-template-columns:180px 1fr;
+      gap:12px 18px;
+      margin:0;
+    }
+
+    .meta dt{
+      font-weight:700;
+    }
+
+    .meta dd{
+      margin:0;
+      color:#222;
+    }
+
+    .body-copy{
+      margin:0 0 16px;
+      color:#222;
+      line-height:1.7;
+    }
+
+    .body-copy:last-child{
+      margin-bottom:0;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
+      margin:0;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .gallery-item figcaption{
+      padding:10px 12px 12px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .sources{
+      margin:0;
+      padding-left:20px;
+    }
+
+    .sources li{
+      margin:0 0 10px;
+      line-height:1.6;
+    }
+
+    .sources a{
+      color:#111;
+    }
+
+    .sources a:hover{
+      color:#1d4ed8;
+    }
+
+    footer{
+      margin-top:34px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width:700px){
+      .meta{
+        grid-template-columns:1fr;
+        gap:6px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../index.html">Catalogue home</a>
+      <a class="nav-pill" href="index.html">Murals</a>
+    </nav>
+
+    <header>
+      <h1>Reynosa Border Wall, 2011</h1>
+      <p class="subtitle">
+        Border-wall interventions by Ron English in Reynosa, Tamaulipas, including the works <em>You Must Be This Color</em> and <em>Double Donkey</em>.
+      </p>
+    </header>
+
+    <figure class="hero">
+      <img src="../images/murals/welcome-wall.jpg" alt="Ron English, Reynosa border wall interventions, 2011" loading="lazy" />
+      <figcaption>Ron English – border-wall interventions near Reynosa, Tamaulipas, 2011.</figcaption>
+    </figure>
+
+    <section class="section" aria-labelledby="work-details">
+      <h2 id="work-details">Work details</h2>
+      <dl class="meta">
+        <dt>Title</dt>
+        <dd><em>You Must Be This Color</em> and <em>Double Donkey</em></dd>
+
+        <dt>Year</dt>
+        <dd>2011</dd>
+
+        <dt>Location</dt>
+        <dd>Reynosa, Tamaulipas, Mexico — near the U.S.–Mexico border</dd>
+
+        <dt>Type</dt>
+        <dd>Border-wall interventions / political public works</dd>
+      </dl>
+    </section>
+
+    <section class="section" aria-labelledby="description">
+      <h2 id="description">Description</h2>
+      <p class="body-copy">
+        These interventions were created near the U.S.–Mexico border in Reynosa and belong to Ron English’s politically charged body of public work addressing nationalism, race, and border policy. The titles <em>You Must Be This Color</em> and <em>Double Donkey</em> frame the site as both a literal barrier and a space for satirical critique.
+      </p>
+      <p class="body-copy">
+        As with many of English’s public interventions, the works connect billboard activism, subvertising, and street-level political commentary. Academic and journalistic sources discussing the project place it within a broader history of border imagery and anti-authoritarian visual tactics in his work.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/Welcome-Wall-April-2019-1.jpg" alt="Reynosa border wall intervention, documentation view 1 by Ron English" loading="lazy" />
+          <figcaption>Documentation view 1.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Welcome-Wall-April-2019-2.jpg" alt="Reynosa border wall intervention, documentation view 2 by Ron English" loading="lazy" />
+          <figcaption>Documentation view 2.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Welcome-Wall-April-2019-3.jpg" alt="Reynosa border wall intervention, documentation view 3 by Ron English" loading="lazy" />
+          <figcaption>Documentation view 3.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Welcome-Wall-April-2019-4.jpg" alt="Reynosa border wall intervention, documentation view 4 by Ron English" loading="lazy" />
+          <figcaption>Documentation view 4.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Welcome-Wall-April-2019-5.jpg" alt="Reynosa border wall intervention, documentation view 5 by Ron English" loading="lazy" />
+          <figcaption>Documentation view 5.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/welcome-wall.jpg" alt="Reynosa border wall intervention, additional documentation by Ron English" loading="lazy" />
+          <figcaption>Additional documentation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sources">
+      <h2 id="sources">Sources</h2>
+      <ol class="sources">
+        <li><a href="https://scholarsbank.uoregon.edu/server/api/core/bitstreams/ba6685cd-d2ab-4add-ae6d-7a059b45292d/content">ScholarsBank (University of Oregon) – academic analysis referencing Ron English’s Reynosa border-wall interventions</a></li>
+        <li><a href="https://www.juxtapoz.com/news/street-art/ron-english-political-billboards/">Juxtapoz – “Ron English Billboard Interventions”</a></li>
+        <li><a href="https://www.huffpost.com/entry/ron-english-billboards_n_4161847">HuffPost – feature on Ron English’s political billboard works</a></li>
+        <li><a href="https://beautifuldecay.com/2013/11/12/ron-english-billboards/">Beautiful Decay – Ron English billboard activism overview</a></li>
+      </ol>
+    </section>
+
+    <footer>
+      <a href="index.html">← Back to murals</a>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Temper Tot, Little Italy, 2015 | Ron English Catalogue Raisonné</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+
+    .nav-pills{
+      margin-top:8px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+    }
+
+    header{
+      margin-top:20px;
+      margin-bottom:24px;
+    }
+
+    h1{
+      font-size:clamp(34px,5vw,58px);
+      margin:0 0 10px;
+      letter-spacing:-.02em;
+    }
+
+    .subtitle{
+      margin:0;
+      max-width:78ch;
+      font-size:18px;
+      line-height:1.6;
+      color:var(--muted);
+    }
+
+    .hero{
+      margin:26px 0 30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .hero img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .hero figcaption{
+      padding:14px 16px 18px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .section{
+      margin-top:28px;
+      padding:22px 22px 24px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .section h2{
+      margin:0 0 14px;
+      font-size:24px;
+      line-height:1.3;
+    }
+
+    .meta{
+      display:grid;
+      grid-template-columns:180px 1fr;
+      gap:12px 18px;
+      margin:0;
+    }
+
+    .meta dt{
+      font-weight:700;
+    }
+
+    .meta dd{
+      margin:0;
+      color:#222;
+    }
+
+    .body-copy{
+      margin:0;
+      color:#222;
+      line-height:1.7;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
+      margin:0;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .gallery-item figcaption{
+      padding:10px 12px 12px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .sources{
+      margin:0;
+      padding-left:20px;
+    }
+
+    .sources li{
+      margin:0 0 10px;
+      line-height:1.6;
+    }
+
+    .sources a{
+      color:#111;
+    }
+
+    .sources a:hover{
+      color:#1d4ed8;
+    }
+
+    footer{
+      margin-top:34px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width:700px){
+      .meta{
+        grid-template-columns:1fr;
+        gap:6px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../index.html">Catalogue home</a>
+      <a class="nav-pill" href="index.html">Murals</a>
+    </nav>
+
+    <header>
+      <h1>Temper Tot, Little Italy, 2015</h1>
+      <p class="subtitle">
+        Pink <em>Temper Tot</em> mural painted for the first LoMan Arts Festival in Little Italy, Manhattan.
+      </p>
+    </header>
+
+    <figure class="hero">
+      <img src="../images/murals/Little-Italy-2.jpg" alt="Ron English, Temper Tot, Little Italy, 2015" loading="lazy" />
+      <figcaption>Ron English – pink <em>Temper Tot</em>, LoMan Arts Festival, Little Italy, Manhattan, 2015.</figcaption>
+    </figure>
+
+    <section class="section" aria-labelledby="work-details">
+      <h2 id="work-details">Work details</h2>
+      <dl class="meta">
+        <dt>Title</dt>
+        <dd><em>Temper Tot</em> (Pink version)</dd>
+
+        <dt>Year</dt>
+        <dd>2015</dd>
+
+        <dt>Location</dt>
+        <dd>Little Italy (Mulberry Street), Manhattan, New York, United States</dd>
+
+        <dt>Context</dt>
+        <dd>Painted for the first LoMan Arts Festival</dd>
+      </dl>
+    </section>
+
+    <section class="section" aria-labelledby="description">
+      <h2 id="description">Description</h2>
+      <p class="body-copy">
+        Painted for the first LoMan Arts Festival, Ron English returned to Mulberry Street and reimagined <em>Temper Tot</em> in a vivid pink variant towering above the neighborhood. The refreshed mural transformed a familiar POPaganda landmark into a new festival centerpiece.
+      </p>
+      <p class="body-copy">
+        Coverage from StreetArtNews, Viewing NYC, and Brooklyn Street Art highlighted how the piece helped establish LoMan as Lower Manhattan’s inaugural large-scale mural festival, drawing heavy foot traffic and becoming one of the event’s most widely shared installations.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/Little-Italy-2.jpg" alt="Temper Tot mural, Little Italy, 2015, main view by Ron English" loading="lazy" />
+          <figcaption>Main view.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Little-Italy-3.jpg" alt="Temper Tot mural, Little Italy, 2015, detail view by Ron English" loading="lazy" />
+          <figcaption>Detail view.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/LittleItaly-1.jpg" alt="Temper Tot mural, Little Italy, 2015, alternate view by Ron English" loading="lazy" />
+          <figcaption>Alternate view.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/LittleItaly-2.jpg" alt="Temper Tot mural, Little Italy, 2015, additional detail by Ron English" loading="lazy" />
+          <figcaption>Additional detail.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sources">
+      <h2 id="sources">Sources</h2>
+      <ol class="sources">
+        <li><a href="https://streetartnews.net/2015/08/new-york-ron-english-new-mural-in-little.html">StreetArtNews – Ron English mural in Little Italy</a></li>
+        <li><a href="https://www.viewing.nyc/ron-english-paints-new-mural-of-pink-temper-tot-in-little-italy/">Viewing NYC – Pink Temper Tot mural in Little Italy</a></li>
+        <li><a href="https://www.brooklynstreetart.com/2015/08/11/something-in-the-air/">Brooklyn Street Art – “Something in the Air”</a></li>
+        <li><a href="https://www.thelisaprojectnyc.org/">The L.I.S.A. Project NYC – Official site</a></li>
+        <li><a href="https://untappedcities.com/2015/08/10/ron-englishs-temper-tot-comes-in-pink-for-loman-arts-festival/">Untapped Cities – Temper Tot comes to LoMan Arts Festival</a></li>
+      </ol>
+    </section>
+
+    <footer>
+      <a href="index.html">← Back to murals</a>
+    </footer>
+  </main>
+</body>
+</html>

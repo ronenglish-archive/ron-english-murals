@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Primary Flight, 2010 | Ron English Catalogue Raisonné</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+
+    .nav-pills{
+      margin-top:8px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+    }
+
+    header{
+      margin-top:20px;
+      margin-bottom:24px;
+    }
+
+    h1{
+      font-size:clamp(34px,5vw,58px);
+      margin:0 0 10px;
+      letter-spacing:-.02em;
+    }
+
+    .subtitle{
+      margin:0;
+      max-width:78ch;
+      font-size:18px;
+      line-height:1.6;
+      color:var(--muted);
+    }
+
+    .hero{
+      margin:26px 0 30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .hero img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .hero figcaption{
+      padding:14px 16px 18px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .section{
+      margin-top:28px;
+      padding:22px 22px 24px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .section h2{
+      margin:0 0 14px;
+      font-size:24px;
+      line-height:1.3;
+    }
+
+    .meta{
+      display:grid;
+      grid-template-columns:180px 1fr;
+      gap:12px 18px;
+      margin:0;
+    }
+
+    .meta dt{
+      font-weight:700;
+    }
+
+    .meta dd{
+      margin:0;
+      color:#222;
+    }
+
+    .body-copy{
+      margin:0;
+      color:#222;
+      line-height:1.7;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
+      margin:0;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .gallery-item figcaption{
+      padding:10px 12px 12px;
+      font-size:14px;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+    }
+
+    .sources{
+      margin:0;
+      padding-left:20px;
+    }
+
+    .sources li{
+      margin:0 0 10px;
+      line-height:1.6;
+    }
+
+    .sources a{
+      color:#111;
+    }
+
+    .sources a:hover{
+      color:#1d4ed8;
+    }
+
+    footer{
+      margin-top:34px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width:700px){
+      .meta{
+        grid-template-columns:1fr;
+        gap:6px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../index.html">Catalogue home</a>
+      <a class="nav-pill" href="index.html">Murals</a>
+    </nav>
+
+    <header>
+      <h1>Primary Flight, 2010</h1>
+      <p class="subtitle">
+        Collaborative mural created during Art Basel Miami week for Primary Flight in partnership with Contra Projects, featuring Ron English alongside Mr. Jago, Bask, Tes One, Tristan Eaton, and others.
+      </p>
+    </header>
+
+    <figure class="hero">
+      <img src="../images/murals/primary-2010.jpg" alt="Ron English and collaborators, Primary Flight, Wynwood, 2010" loading="lazy" />
+      <figcaption>Ron English and collaborators – Contra Projects × Primary Flight mural, Wynwood, Miami, 2010.</figcaption>
+    </figure>
+
+    <section class="section" aria-labelledby="work-details">
+      <h2 id="work-details">Work details</h2>
+      <dl class="meta">
+        <dt>Title</dt>
+        <dd>Contra Projects × Primary Flight collaborative mural</dd>
+
+        <dt>Year</dt>
+        <dd>2010</dd>
+
+        <dt>Location</dt>
+        <dd>Wynwood, Miami, Florida, United States</dd>
+
+        <dt>Context</dt>
+        <dd>Created for the 2010 Primary Flight program in partnership with Contra Projects during Art Basel Miami week</dd>
+      </dl>
+    </section>
+
+    <section class="section" aria-labelledby="description">
+      <h2 id="description">Description</h2>
+      <p class="body-copy">
+        Created for the 2010 Primary Flight program in partnership with Contra Projects, this large-scale collaboration brought together Ron English, Mr. Jago, Bask, Tes One, Tristan Eaton, and others during Art Basel Miami week. English’s smiling yellow icon anchors the wall, surrounded by psychedelic currents reflecting the visual signatures of the contributing Contra artists. Contemporary documentation highlights the mural as part of the experimental, collaborative energy that helped define Wynwood’s early street-art boom.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/Primary-Flight-2010-4.jpg" alt="Primary Flight mural, Wynwood, 2010, view 1 by Ron English and collaborators" loading="lazy" />
+          <figcaption>View 1.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Primary-Flight-2010-1.jpeg" alt="Primary Flight mural, Wynwood, 2010, view 2 by Ron English and collaborators" loading="lazy" />
+          <figcaption>View 2.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/Primary-Flight-2010-3.jpg" alt="Primary Flight mural, Wynwood, 2010, view 3 by Ron English and collaborators" loading="lazy" />
+          <figcaption>View 3.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sources">
+      <h2 id="sources">Sources</h2>
+      <ol class="sources">
+        <li><a href="https://www.soulofmiami.org/2010/11/08/primary-flight-street-art-murals-1129-12510/">Soul of Miami – Primary Flight street art murals</a></li>
+        <li><a href="https://www.brooklynstreetart.com/tag/contraprojects/">Brooklyn Street Art – ContraProjects tag archive</a></li>
+        <li><a href="https://www.brooklynstreetart.com/category/primary-flight/">Brooklyn Street Art – Primary Flight category archive</a></li>
+        <li><a href="https://hypebeast.com/2010/11/ron-english-status-factory-exhibition-mural-frank-doyle-arts-pavilion">Hypebeast – Ron English mural for “Status Factory” at Frank Doyle Arts Pavilion</a></li>
+        <li><a href="https://blog.vandalog.com/2010/11/12/fairey-ron-english-in-miami/">Vandalog – Fairey &amp; Ron English in Miami</a></li>
+      </ol>
+    </section>
+
+    <footer>
+      <a href="index.html">← Back to murals</a>
+    </footer>
+  </main>
+</body>
+</html>
