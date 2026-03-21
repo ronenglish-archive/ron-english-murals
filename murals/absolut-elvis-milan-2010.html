@@ -71,25 +71,25 @@
       color:var(--muted);
     }
 
- .hero{
-  margin:26px 0 30px;
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  overflow:hidden;
-  background:#fff;
-  box-shadow:var(--shadow);
-  padding:0;
-}
+    .hero{
+      margin:26px 0 30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+      padding:0;
+    }
 
-.hero img{
-  width:100%;
-  height:auto !important;
-  aspect-ratio:auto !important;
-  object-fit:contain !important;
-  max-height:none !important;
-  display:block;
-  background:#f3f4f6;
-}
+    .hero img{
+      width:100%;
+      height:auto !important;
+      aspect-ratio:auto !important;
+      object-fit:contain !important;
+      max-height:none !important;
+      display:block;
+      background:#f3f4f6;
+    }
 
     .hero figcaption{
       padding:14px 16px 18px;
@@ -129,10 +129,24 @@
       color:#222;
     }
 
-    .gallery-note{
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
       margin:0;
-      color:var(--muted);
-      line-height:1.6;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
     }
 
     .sources{
@@ -161,6 +175,12 @@
       font-size:14px;
     }
 
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
     @media (max-width:700px){
       .meta{
         grid-template-columns:1fr;
@@ -172,7 +192,7 @@
 <body>
   <main class="wrap">
     <nav class="nav-pills" aria-label="Site navigation">
-    <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
+      <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
       <a class="nav-pill" href="index.html">Murals</a>
     </nav>
 
@@ -184,7 +204,7 @@
     </header>
 
     <figure class="hero">
-      <img src="../images/murals/absolut-elvis.jpg" alt="Ron English, Absolut Elvis, Milan, 2010" loading="lazy" />
+      <img src="../images/murals/absolut-elvish.jpg" alt="Ron English, Absolut Elvis, Milan, 2010" loading="lazy" />
       <figcaption>Ron English – <em>Absolut Elvis</em>, Milan, 2010.</figcaption>
     </figure>
 
@@ -207,9 +227,31 @@
 
     <section class="section" aria-labelledby="gallery">
       <h2 id="gallery">Gallery</h2>
-      <p class="gallery-note">
-        Add additional views here if available, such as installation views, details, or alternate documentation images.
-      </p>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/elvis-1.jpg" alt="Absolut Elvis mural, Milan, 2010, view 1" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/elvis-2.jpg" alt="Absolut Elvis mural, Milan, 2010, view 2" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/elvis-3.jpg" alt="Absolut Elvis mural, Milan, 2010, view 3" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/elvis-4.jpg" alt="Absolut Elvis mural, Milan, 2010, view 4" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/elvis-5.jpg" alt="Absolut Elvis mural, Milan, 2010, view 5" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/elvis-6.jpg" alt="Absolut Elvis mural, Milan, 2010, view 6" loading="lazy" />
+        </figure>
+      </div>
     </section>
 
     <section class="section" aria-labelledby="sources">
