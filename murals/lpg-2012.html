@@ -80,13 +80,22 @@
       box-shadow:var(--shadow);
     }
 
-    figure.mural-crop-hero img{
-      display:block;
+    .mural-crop-frame{
       width:100%;
       aspect-ratio:1 / 1;
+      overflow:hidden;
+      background:#f3f4f6;
+    }
+
+    .mural-crop-frame img{
+      width:100%;
+      height:100%;
+      display:block;
       object-fit:cover;
       object-position:center;
-      background:#f3f4f6;
+      margin:0;
+      padding:0;
+      border:0;
     }
 
     figure.mural-crop-hero figcaption{
@@ -222,7 +231,9 @@
     </header>
 
     <figure class="mural-crop-hero">
-      <img src="../images/murals/lpg.jpg" alt="Ron English, London Pleasure Gardens, 2012" loading="lazy" />
+      <div class="mural-crop-frame">
+        <img src="../images/murals/lpg.jpg" alt="Ron English, London Pleasure Gardens, 2012" loading="lazy" />
+      </div>
       <figcaption>Ron English – installation view, London Pleasure Gardens, Royal Victoria Docks, 2012.</figcaption>
     </figure>
 
