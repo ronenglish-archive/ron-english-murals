@@ -71,27 +71,36 @@
       color:var(--muted);
     }
 
-.hero{
-  margin:26px 0 30px;
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  overflow:hidden;
-  background:#fff;
-  box-shadow:var(--shadow);
-  padding:0;
-}
+    figure.mural-work-hero{
+      margin:26px 0 30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+      padding:0;
+      width:100%;
+      height:auto !important;
+      min-height:0 !important;
+      max-height:none !important;
+      aspect-ratio:auto !important;
+      display:block;
+    }
 
-.hero img{
-  width:100%;
-  height:auto !important;
-  aspect-ratio:auto !important;
-  object-fit:contain !important;
-  max-height:none !important;
-  display:block;
-  background:#f3f4f6;
-}
+    figure.mural-work-hero > img{
+      display:block;
+      width:100%;
+      height:auto !important;
+      min-height:0 !important;
+      max-height:none !important;
+      aspect-ratio:auto !important;
+      object-fit:contain !important;
+      margin:0;
+      padding:0;
+      background:#f3f4f6;
+    }
 
-    .hero figcaption{
+    figure.mural-work-hero > figcaption{
       padding:14px 16px 18px;
       font-size:14px;
       color:var(--muted);
@@ -155,6 +164,7 @@
 
     .gallery-item img{
       width:100%;
+      height:auto;
       display:block;
       background:#f3f4f6;
     }
@@ -209,7 +219,7 @@
 <body>
   <main class="wrap">
     <nav class="nav-pills" aria-label="Site navigation">
-<a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
+      <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
       <a class="nav-pill" href="index.html">Murals</a>
     </nav>
 
@@ -220,7 +230,7 @@
       </p>
     </header>
 
-    <figure class="hero">
+    <figure class="mural-work-hero">
       <img src="../images/murals/berlin-wall.jpg" alt="Ron English, Berlin Wall, 1989" loading="lazy" />
       <figcaption>Ron English – Berlin Wall mural at Checkpoint Charlie, West Berlin, 1989.</figcaption>
     </figure>
