@@ -132,7 +132,7 @@
 
     .gallery-grid{
       display:grid;
-      grid-template-columns:repeat(1,minmax(0,1fr));
+      grid-template-columns:repeat(3,minmax(0,1fr));
       gap:18px;
     }
 
@@ -183,6 +183,12 @@
       font-size:14px;
     }
 
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
     @media (max-width:700px){
       .meta{
         grid-template-columns:1fr;
@@ -206,7 +212,7 @@
     </header>
 
     <figure class="hero">
-      <img src="../images/murals/wynwood-babyhulk.jpg" alt="Ron English, Baby Hulk / Temper Tot, Wynwood Walls, Miami, 2010" loading="lazy" />
+      <img src="../images/murals/wynwood-babyhulkL.jpg" alt="Ron English, Baby Hulk / Temper Tot, Wynwood Walls, Miami, 2010" loading="lazy" />
       <figcaption>Ron English – <em>Baby Hulk / Temper Tot</em>, Wynwood Walls, Miami, 2010.</figcaption>
     </figure>
 
@@ -234,7 +240,34 @@
       </p>
     </section>
 
->
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/babyhulk-1.jpg" alt="Baby Hulk / Temper Tot mural, view 1" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/babyhulk-2.jpg" alt="Baby Hulk / Temper Tot mural, view 2" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/babyhulk-3.jpg" alt="Baby Hulk / Temper Tot mural, view 3" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/babyhulk-4.jpg" alt="Baby Hulk / Temper Tot mural, view 4" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/babyhulk-5.jpg" alt="Baby Hulk / Temper Tot mural, view 5" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/babyhulk-6.jpg" alt="Baby Hulk / Temper Tot mural, view 6" loading="lazy" />
+        </figure>
+      </div>
+    </section>
 
     <section class="section" aria-labelledby="sources">
       <h2 id="sources">Sources</h2>
