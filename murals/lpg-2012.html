@@ -71,26 +71,46 @@
       color:var(--muted);
     }
 
-    .hero{
+    figure.mural-page-hero{
       margin:26px 0 30px;
+      padding:0 !important;
       border:1px solid var(--border);
       border-radius:var(--radius);
       overflow:hidden;
       background:#fff;
       box-shadow:var(--shadow);
-    }
-
-    .hero img{
       width:100%;
-      display:block;
-      background:#f3f4f6;
+      height:auto !important;
+      min-height:0 !important;
+      max-height:none !important;
+      aspect-ratio:auto !important;
+      display:block !important;
+      line-height:0;
     }
 
-    .hero figcaption{
+    figure.mural-page-hero img{
+      display:block !important;
+      width:100% !important;
+      height:auto !important;
+      min-height:0 !important;
+      max-height:none !important;
+      aspect-ratio:auto !important;
+      object-fit:fill !important;
+      margin:0 !important;
+      padding:0 !important;
+      border:0 !important;
+      background:none !important;
+      box-shadow:none !important;
+    }
+
+    figure.mural-page-hero figcaption{
+      display:block;
       padding:14px 16px 18px;
       font-size:14px;
+      line-height:1.5;
       color:var(--muted);
       border-top:1px solid var(--border);
+      background:#fff;
     }
 
     .section{
@@ -150,6 +170,7 @@
 
     .gallery-item img{
       width:100%;
+      height:auto;
       display:block;
       background:#f3f4f6;
     }
@@ -204,7 +225,7 @@
 <body>
   <main class="wrap">
     <nav class="nav-pills" aria-label="Site navigation">
-  <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
+      <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
       <a class="nav-pill" href="index.html">Murals</a>
     </nav>
 
@@ -215,7 +236,7 @@
       </p>
     </header>
 
-    <figure class="hero">
+    <figure class="mural-page-hero">
       <img src="../images/murals/lpg.jpg" alt="Ron English, London Pleasure Gardens, 2012" loading="lazy" />
       <figcaption>Ron English – installation view, London Pleasure Gardens, Royal Victoria Docks, 2012.</figcaption>
     </figure>
