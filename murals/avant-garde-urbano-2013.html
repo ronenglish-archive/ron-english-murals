@@ -130,10 +130,24 @@
       line-height:1.7;
     }
 
-    .gallery-note{
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
       margin:0;
-      color:var(--muted);
-      line-height:1.6;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
     }
 
     .sources{
@@ -162,6 +176,12 @@
       font-size:14px;
     }
 
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
     @media (max-width:700px){
       .meta{
         grid-template-columns:1fr;
@@ -173,7 +193,7 @@
 <body>
   <main class="wrap">
     <nav class="nav-pills" aria-label="Site navigation">
-<a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
+      <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
       <a class="nav-pill" href="index.html">Murals</a>
     </nav>
 
@@ -215,9 +235,27 @@
 
     <section class="section" aria-labelledby="gallery">
       <h2 id="gallery">Gallery</h2>
-      <p class="gallery-note">
-        Add additional views here if available, such as installation photographs, detail shots, wider street views, or alternate documentation.
-      </p>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/avant-1.jpg" alt="Avant-Garde Urbano mural, view 1" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/avant-2.jpg" alt="Avant-Garde Urbano mural, view 2" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/avant-3.jpg" alt="Avant-Garde Urbano mural, view 3" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/avant-5.jpg" alt="Avant-Garde Urbano mural, view 5" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/avant-4.jpg" alt="Avant-Garde Urbano mural, view 4" loading="lazy" />
+        </figure>
+      </div>
     </section>
 
     <section class="section" aria-labelledby="sources">
