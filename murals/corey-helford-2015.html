@@ -125,9 +125,33 @@
     }
 
     .body-copy{
-      margin:0;
+      margin:0 0 16px;
       color:#222;
       line-height:1.7;
+    }
+
+    .body-copy:last-child{
+      margin-bottom:0;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
+      margin:0;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
     }
 
     .sources{
@@ -156,6 +180,12 @@
       font-size:14px;
     }
 
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
     @media (max-width:700px){
       .meta{
         grid-template-columns:1fr;
@@ -167,7 +197,7 @@
 <body>
   <main class="wrap">
     <nav class="nav-pills" aria-label="Site navigation">
- <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
+      <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a>
       <a class="nav-pill" href="index.html">Murals</a>
     </nav>
 
@@ -208,6 +238,19 @@
       <p class="body-copy">
         Installed at the gallery’s new 12,000-square-foot location on South Anderson Street, the mural quickly became a recognizable landmark for the site and remains one of English’s most widely photographed Los Angeles wall works.
       </p>
+    </section>
+
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/monarch-2.jpg" alt="Monarch Elephant mural at Corey Helford Gallery, 2015, view 2" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/monarch-3.jpg" alt="Monarch Elephant mural at Corey Helford Gallery, 2015, view 3" loading="lazy" />
+        </figure>
+      </div>
     </section>
 
     <section class="section" aria-labelledby="sources">
