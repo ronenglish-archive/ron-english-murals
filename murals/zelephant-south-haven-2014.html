@@ -130,6 +130,26 @@
       line-height:1.7;
     }
 
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .gallery-item{
+      margin:0;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      display:block;
+      background:#f3f4f6;
+    }
+
     .sources{
       margin:0;
       padding-left:20px;
@@ -156,6 +176,12 @@
       font-size:14px;
     }
 
+    @media (max-width:900px){
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
     @media (max-width:700px){
       .meta{
         grid-template-columns:1fr;
@@ -179,7 +205,7 @@
     </header>
 
     <figure class="hero">
-      <img src="../images/murals/zelephant-south-haven.jpg" alt="Ron English, Zelephant, South Haven, 2014" loading="lazy" />
+      <img src="../images/murals/zelephant-1.jpg" alt="Ron English, Zelephant, South Haven, 2014" loading="lazy" />
       <figcaption>Ron English – <em>Zelephant</em>, Waterfront Film Festival, South Haven, Michigan, 2014.</figcaption>
     </figure>
 
@@ -205,6 +231,19 @@
       <p class="body-copy">
         Ron English painted the <em>Zelephant</em> mural during the Waterfront Film Festival in South Haven, Michigan, in June 2014. The festival invited artists to create live outdoor works, and English contributed this hybrid zebra-elephant figure, a recurring character in his POPaganda universe. Painted in a single day, the bright red-and-yellow wall quickly became one of the most photographed pieces of the 2014 event.
       </p>
+    </section>
+
+    <section class="section" aria-labelledby="gallery">
+      <h2 id="gallery">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="../images/murals/zelephant-2.jpg" alt="Zelephant mural, South Haven, 2014, view 2" loading="lazy" />
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="../images/murals/zelephant-3.jpg" alt="Zelephant mural, South Haven, 2014, view 3" loading="lazy" />
+        </figure>
+      </div>
     </section>
 
     <section class="section" aria-labelledby="sources">
