@@ -1,0 +1,12 @@
+﻿Re-center index top text and footer pills summary
+Generated: 05/29/2026 18:21:50
+
+Section: murals
+Index path: D:\github\ron-english-murals\murals\index.html
+Index changed: Yes
+Detail pages changed: No
+Mojibake warning after: No
+
+Backup:
+D:\github-backups\ron-english-murals\recenter-index-top-footer-pills-v2-20260529-182150
+
