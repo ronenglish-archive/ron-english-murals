@@ -1,0 +1,22 @@
+﻿Add two unlinked mural pages summary
+Generated: 05/29/2026 16:50:23
+
+Repo root:    D:\github\ron-english-murals
+Section root: D:\github\ron-english-murals\murals
+Index file:   D:\github\ron-english-murals\murals\index.html
+
+Pages updated:       2
+Index changed:       Yes
+Work IDs assigned:   RE-012035; RE-012036
+Next available ID:   RE-012037
+
+CSV report:
+D:\github\ron-english-murals\data\generated\add-two-unlinked-mural-pages-map-20260529-165023.csv
+
+Backup:
+D:\github-backups\ron-english-murals\add-two-unlinked-mural-pages-v1-20260529-165023
+
+Mojibake warning: suspicious characters found in:
+  bowery-wall-2015.html
+  chico-mendez-memorial-mural-1997.html
+

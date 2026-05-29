@@ -1,0 +1,70 @@
+﻿Murals Work ID and Page Survey
+Generated: 05/29/2026 16:44:23
+
+Repo root:    D:\github\ron-english-murals
+Section root: D:\github\ron-english-murals\murals
+Index file:   D:\github\ron-english-murals\murals\index.html
+
+Index cards found:          61
+Linked detail pages found:  61
+Missing linked pages:       0
+Pages with galleries:       33
+Pages already showing IDs:  0
+Unlinked HTML pages:        2
+Missing hero image files:   
+
+Proposed Work ID assignment starts at RE-011957.
+Available ID rule used:
+  RE-011957-RE-011970
+  RE-011988 and beyond
+  RE-011971-RE-011987 skipped/reserved if reached
+
+Proposed assigned range(s): RE-011957-RE-011970; RE-011988-RE-012034
+Last proposed ID:           RE-012034
+Next available after block: RE-012035
+
+Google Sheets TSV:
+D:\github\ron-english-murals\data\generated\murals-google-sheets-hero-formulas-20260529-164422.tsv
+
+CSV:
+D:\github\ron-english-murals\data\generated\murals-google-sheets-hero-formulas-20260529-164422.csv
+
+Unlinked HTML pages in section folder:
+  bowery-wall-2015.html
+  chico-mendez-memorial-mural-1997.html
+
+Pages with galleries to preserve:
+  berlin-wall-1989.html - Berlin Wall, 1989 - 7 gallery images
+  west-bank-2007.html - West Bank, 2007 - 3 gallery images
+  primary-flight-2008.html - Primary Flight, 2008 - 1 gallery images
+  medicine-agency-2009.html - Medicine Agency, 2009 - 6 gallery images
+  absolut-elvis-milan-2010.html - Absolut Elvis, Milan, 2010 - 6 gallery images
+  primary-flight-2010.html - Primary Flight, 2010 - 1 gallery images
+  urban-bigfoot-2010.html - Urban Bigfoot, 2010 - 6 gallery images
+  wynwood-babyhulk-2010.html - Wynwood Babyhulk, 2010 - 6 gallery images
+  nuart-2012.html - Nuart, 2012 - 6 gallery images
+  avant-garde-urbano-2013.html - Avant-Garde Urbano, 2013 - 5 gallery images
+  mousemask-temper-rome-2013.html - Mousemask and Temper, Rome, 2013 - 3 gallery images
+  powwow-hawaii-2013.html - POW! WOW! Hawaii, 2013 - 5 gallery images
+  grin-baby-richmond-2014.html - Grin Baby, Richmond, 2014 - 5 gallery images
+  zelephant-south-haven-2014.html - Zelephant, South Haven, 2014 - 2 gallery images
+  coney-island-2015.html - Coney Island Mural, 2015 - 5 gallery images
+  corey-helford-2015.html - Corey Helford, 2015 - 2 gallery images
+  rxsm-spiderhouse-2015.html - RXSM, Spiderhouse, 2015 - 3 gallery images
+  temper-tot-little-italy-2015.html - Temper Tot, Little Italy, 2015 - 1 gallery images
+  victoria-2015.html - Victoria, 2015 - 2 gallery images
+  dubai-2016.html - Dubai, 2016 - 4 gallery images
+  magic-city-dresden-2016.html - Magic City, Dresden, 2016 - 1 gallery images
+  berlin-wassertor-2017.html - Berlin Wassertor, 2017 - 2 gallery images
+  decatur-elefanka-2017.html - Decatur Elefanka, 2017 - 1 gallery images
+  manhattan-runners-2017.html - Manhattan Runners, 2017 - 2 gallery images
+  mural-festival-2017-montreal.html - Mural Festival, Montreal, 2017 - 3 gallery images
+  one-wall-2017.html - One Wall, 2017 - 2 gallery images
+  proam-studio-city-7th-floor-2018.html - Proam, Studio City 7th Floor, 2018 - 11 gallery images
+  wynwood-2018.html - Wynwood, 2018 - 5 gallery images
+  basel-2019.html - Basel, 2019 - 3 gallery images
+  k11-musea-2019.html - K11 Musea, 2019 - 1 gallery images
+  jersey-city-mural-festival-2021.html - Jersey City Mural Festival, 2021 - 5 gallery images
+  last-supper-delusionville-2021.html - Last Supper, Delusionville, 2021 - 4 gallery images
+  plessy-school-new-orleans-2022.html - Plessy School, New Orleans, 2022 - 1 gallery images
+
