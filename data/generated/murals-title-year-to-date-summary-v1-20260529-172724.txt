@@ -1,0 +1,82 @@
+﻿Murals title-year-to-date cleanup summary
+Generated: 05/29/2026 17:27:24
+
+Detail pages scanned: 63
+Rows updated:         63
+Title fields changed: 63
+Date fields changed:  0
+Index titles changed: 63
+Skipped - no year:    0
+Skipped - multiple:   0
+
+CSV report:
+D:\github\ron-english-murals\data\generated\murals-title-year-to-date-v1-20260529-172724.csv
+
+Backup:
+D:\github-backups\ron-english-murals\murals-title-year-to-date-v1-20260529-172724
+
+Mojibake warning: suspicious characters found in:
+  absolut-elvis-milan-2010.html
+  avant-garde-urbano-2013.html
+  basel-2019.html
+  beacon-popmart-2018.html
+  berlin-wall-1989.html
+  berlin-wassertor-2017.html
+  blackocean-pool-2014.html
+  bowery-wall-2015.html
+  chico-mendez-memorial-mural-1997.html
+  complexcon-2016.html
+  compound-harlem-2015.html
+  coney-island-2015.html
+  corey-helford-2015.html
+  cowgirl-roskilde-2013.html
+  decatur-elefanka-2017.html
+  dubai-2016.html
+  elefanka-lyon-2019.html
+  elefanka-mousezilla-2019.html
+  english-eichman-heart.html
+  fashion-moda-1988.html
+  grin-baby-richmond-2014.html
+  grin-mural-2024.html
+  holleyman.html
+  jersey-city-cole-street-2009.html
+  jersey-city-mural-festival-2021.html
+  jessica-rabbit.html
+  k11-musea-2019.html
+  last-supper-delusionville-2021.html
+  lccc-dc-2022.html
+  lpg-2012.html
+  magic-city-dresden-2016.html
+  manhattan-runners-2017.html
+  medicine-agency-2009.html
+  miami-marine-stadium-2014.html
+  miami-popmart-2019.html
+  milan-yin-yang.html
+  mindstyle-china-2015.html
+  mousemask-temper-rome-2013.html
+  mural-festival-2017-montreal.html
+  notacrime-2015.html
+  nuart-2012.html
+  one-wall-2017.html
+  plessy-school-new-orleans-2022.html
+  powwow-hawaii-2013.html
+  primary-flight-2008.html
+  primary-flight-2010.html
+  proam-studio-city-7th-floor-2018.html
+  prophet-bar.html
+  punk-pink-skunk-2021.html
+  reynosa-border-wall-2011.html
+  rxsm-spiderhouse-2015.html
+  spider-house-face-2015.html
+  stlouis-loop-mural-2024.html
+  temper-tot-little-italy-2012.html
+  temper-tot-little-italy-2015.html
+  texas-tantrum-trots-and-pals.html
+  trumpty-dumpty-2017.html
+  urban-bigfoot-2010.html
+  victoria-2015.html
+  west-bank-2007.html
+  wynwood-2018.html
+  wynwood-babyhulk-2010.html
+  zelephant-south-haven-2014.html
+
